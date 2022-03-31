@@ -1,38 +1,49 @@
 .App {
   text-align: center;
+  
+}
+#Loading{
+  animation-name: spinLoading;
+  animation-duration: 5s ;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes spinLoading {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  color: #000;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pageTitle{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: left;
+  font-size: 50px;
+}
+.navLine{
+  display: flex;
+  justify-content:space-around ;
+  background-color: black;
+}
+#menuLine{
   color: white;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.pixArtGame{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
