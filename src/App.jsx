@@ -1,16 +1,18 @@
-import HomePage from "./DevLog/HomePage";
-import Daily from './DevLog/Daily';
-import Resume from './Resume/Resume';
-import ToDoList from "./ToDoList/ToDoList";
-
+import Page from "./ContextEx/Page";
+import { PostContext } from "./ContextEx/Context";
+import { useState } from 'react';
 
 
 
 function App(){
+    const [post,setPost]=useState({title:"",contents:""});
+    const [postToggle,setPostToggle]=useState(false);
     return(
     <>
-    <ToDoList/>
+    <PostContext.Provider value={{post,setPost,postToggle,setPostToggle}}>
+    <Page/>
+    </PostContext.Provider>
     </>
     )
-}
-export default App
+} 
+export default App;

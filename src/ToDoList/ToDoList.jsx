@@ -4,8 +4,12 @@ import { useState } from 'react';
 const Wrapper = styled.div`
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    width:500px;
+    height:800px;
+    border: solid 1px black;
+    
 `;
 
 const Title = styled.h1`
@@ -15,16 +19,26 @@ const Title = styled.h1`
 `;
 const ListBox = styled.div`
     border: solid 1px green;
-    width: 100px;
-    height: 80px;
+    width: 500px;
+    height: 400px;
 `;
 const List = styled.li`
     list-style: none; 
+    font-size:30px;
 `;
 const DoneList = styled.li`
   text-decoration: line-through;
   font-style: italic;
+  font-size: 30px;
 `;
+const Input = styled.input`
+  width: 491px;
+
+`;
+const AddButton = styled.button`
+  width: 500px;
+`;
+
 
 function ToDoList(){
     const [todo, setTodo] = useState("");
@@ -74,11 +88,14 @@ function ToDoList(){
     <Wrapper>
       <Title>TO DO LIST</Title>
       <form onSubmit={Add}>
-        <input onChange={Typing} placeholder="To Do" type="text" value={todo} />
-        <button>Add</button>
+        <Input onChange={Typing} placeholder="To Do" type="text" value={todo} />
+        <AddButton>
+</AddButton>
       </form>
+     <ListBox>
       <ul>
-        To Do({todoArr.length}) <hr/>
+        To Do({todoArr.length})
+         <hr/>
         {todoArr.map((item, index) => (
           <List key={(todoObj.index = index)}>
             {item}
@@ -88,12 +105,15 @@ function ToDoList(){
           </List>
         ))}
       </ul>
+      </ListBox>
+      <ListBox>
       <ul>
         Done({doneArr.length}) <hr/>
         {doneArr.map((item,index)=>(
           <DoneList key={index}>{item}</DoneList>
         ))}
       </ul>
+      </ListBox>
     </Wrapper>
   );
 }
