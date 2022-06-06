@@ -6,13 +6,11 @@ export default function SearchEx() {
   const [output, setOutput] = useState([]);
   const Search = () => {
     database.sort();
-    let arr = database.filter(() => database.indexOf(keyword) > -1);
-    setOutput(arr);
-    // if (database.indexOf(keyword) > -1) {
-    //   setOutput([...output, keyword]);
-    // } else {
-    //   setOutput([]);
-    // }
+    if (database.indexOf(keyword) > -1) {
+      setOutput([...output, keyword]);
+    } else {
+      setOutput([]);
+    }
   };
   const Typing = (e) => {
     setKeyword(e.target.value);
