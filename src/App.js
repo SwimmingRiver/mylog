@@ -1,9 +1,10 @@
 
-import AxiosPost from './React200/AxiosPost';
+import LogInJoinPage from './LogInJoin/LoginJoinPage';
+
 function App(){
     return(
         <>
-        <AxiosPost/>
+        <LogInJoinPage/>
         </>
     )
 } 
