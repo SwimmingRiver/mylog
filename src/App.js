@@ -1,10 +1,9 @@
-
-import LogInJoinPage from './LogInJoin/LoginJoinPage';
+import Router from './Routers/Router';
 
 function App(){
     return(
         <>
-        <LogInJoinPage/>
+        <Router/>
         </>
     )
 } 

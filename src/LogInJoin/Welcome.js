@@ -10,7 +10,7 @@ function Welcome(){
     return(
         <>
         <Header>
-            <p>Welcome,Guest</p>
+            <p>Welcome,Guest{Math.floor(Math.random()*8999+1000)}</p>
             <div>
             <input placeholder='Id'/>
             <input placeholder='Password'/>
