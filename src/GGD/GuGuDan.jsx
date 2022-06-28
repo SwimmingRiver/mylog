@@ -1,7 +1,14 @@
 
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState,useEffect } from 'react';
+import styled from 'styled-components';
 
+const Title = styled.h1`
+    font-size: 3em;
+`;
+const Text = styled.p`
+    font-size: 2em;
+    text-align: center;
+`
 
 function GuGUDan(){
     const [num1,setNum1]=useState(0);
@@ -12,24 +19,25 @@ function GuGUDan(){
       setNum1(Math.floor(Math.random()*(9 - 1) + 1));
       setNum2(Math.floor(Math.random()*(9 - 1) + 1));
   },[result])
-    const Submit = ()=>{
+    const Submit = (e)=>{
+        e.preventDefault();
         answer===(num1*num2)?setResult("정답"+answer):setResult("오답");
-   
+
+        setAnswer("");
     }
     const Change=(e)=>{
         setAnswer(+e.target.value);
     }
-    console.log("n1:"+num1);
-    console.log("n2:"+num2);
-    console.log(num1*num2);
     return(
         <>
-        <h1>구구단</h1>
+        <Title>구구단</Title>
         <form onSubmit={Submit}>
-            <p>{num1}*{num2}</p>
-            <input placeholder='enter the answer' onChange={Change}></input>
+            <Text>{num1}*{num2}</Text>
+            <br/>
+            <input value={answer} autoFocus placeholder='enter the answer' onChange={Change}></input>
             <button>입력</button>
         </form>
+        <br/>
         <h2>결과:{result}</h2>
         </>
     )
