@@ -5,6 +5,7 @@ import GuGUDan from './../GGD/GuGuDan';
 import Lotto from './../Lotto/Lotto';
 import NumberingBaseball from './../NumberingBaseBall/NumberingBaseball';
 import WordRelay from './../wordRelay/word-relay';
+import Lstr from "../LocalStorageEx/LStr";
 const Wrapper = styled.div`
     height: 100vh;
     width: 100vw;
@@ -17,6 +18,7 @@ const Title = styled.h1`
     font-size: 10em;
     overflow: hidden;
     background-color: aliceblue;
+    border-bottom: solid 5px lightblue;
 `;
 const MenuList = styled.ul`
     border: solid 1px black;
@@ -65,6 +67,7 @@ export default function Router(){
             <LinkText to="/Lottoto">Lottoto</LinkText>
             <LinkText to="/NumberingBaseball">NBB</LinkText>
             <LinkText to="/Word-relay">WordRelay</LinkText>
+            <LinkText to="/Lstr">Local Storage Ex</LinkText>
         </LinkWrapper>
         </MenuList>
             <ContentsWrapper>
@@ -74,6 +77,7 @@ export default function Router(){
             <Route path="/Lottoto" element={<Lotto/>}/>
             <Route path="/NumberingBaseball"element={<NumberingBaseball/>}/>
             <Route path="/word-relays" element={<WordRelay/>}/>
+            <Route path="/Lstr" element={<Lstr/>}/>
         </Routes>
          
         </ContentsWrapper>
