@@ -9,15 +9,14 @@ const List = styled.li`
 function Lstr(){
     const [name,setName]=useState("");
     const [list,setList]=useState([]);
-
     const Add=()=>{
        if(name!==""){
         setList([...list,name]);
         setName("");
-        
         }
     }
-    useEffect(()=>{localStorage.setItem("arr",list);},[list])
+    useEffect(()=>{
+        localStorage.setItem("arr",list);},[list])
     return(
     <>
     <h2>LocalStorage 연습</h2>
