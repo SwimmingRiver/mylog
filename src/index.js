@@ -5,7 +5,7 @@ import App from './App';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme } from './theme';
 import { createGlobalStyle } from 'styled-components';
-
+import { BrowserRouter } from 'react-router-dom';
 const GlobalStyle = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -52,10 +52,12 @@ table {
 }`;
 ReactDOM.render(
   <React.StrictMode>
+	<BrowserRouter>
     <ThemeProvider theme={lightTheme}>
       <GlobalStyle/>
     <App />
     </ThemeProvider>
+	</BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

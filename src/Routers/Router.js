@@ -59,7 +59,7 @@ export default function Router(){
         <Title>Dev:Log</Title>
         <Wrapper>
        
-        <BrowserRouter>
+    
         <MenuList>
             <HomeLink to="/">Home</HomeLink>
         <LinkWrapper>
@@ -81,7 +81,7 @@ export default function Router(){
         </Routes>
          
         </ContentsWrapper>
-        </BrowserRouter>
+
         </Wrapper>
         </>
     )
