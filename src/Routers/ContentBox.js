@@ -12,7 +12,7 @@ const BTitle = styled.h2`
     font-size: 2em;
 `;
 const Gif = styled.img`
-    width: 25em;
+    width: 20em;
     height: 20em;
 `;
 
