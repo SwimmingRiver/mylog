@@ -25,9 +25,9 @@ html css js reactJs redux styled-component
 - todolist
 - loginform
 - webBoard
-- pixelartgame
 
 ## experience
+-
  구성: 기간 진행한 일 사용한 기술 성과/수추 중심의 결과
  최신순으로 기재
  팀프 역할 기여도
