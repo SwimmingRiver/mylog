@@ -1,4 +1,4 @@
-Title | 좋은 한 문장
+강수영 | 
 ====
 ## About Me
     name : 강수영
