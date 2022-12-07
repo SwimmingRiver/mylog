@@ -1,10 +1,10 @@
-강수영 | 
+강수영 | 끝없이 배우고싶은 개발자
 ====
 ## About Me
     name : 강수영
     email : swimmingr@gmail.com
     mobile : 000-0000-0000
-    github : <https://github.com/SwimmingRiver>
+    github : < https://github.com/SwimmingRiver >
 ---
 ## Introduce
     컴퓨터 공학을 전공으로 대학교를 졸업하였고, 이 교육과정에서
@@ -18,17 +18,21 @@
     관련 서적, 동영상 강의,그룹 스터디등의 방법으로 공부를 해나가고 있습니다.
 
 ## programs
-- todolist | 
+- todolist | <https://Swimmingriver.github.io/todoList>
+
     reactjs 를 공부하고 처음으로 만들어본 개인 프로젝트
     할 일을 입력받아 목록에 추가하고,추가된 할 일은 완료되면 완료 목록으로 표시하거나 수정,삭제가 가능합니다.
     react 개발에서 useState,useEffect 같은 hooks를 활용하는 경험을 할 수 있었습니다.
     
-- loginform |
+- loginform |<https://Swimmingriver.github.io/loginForm>
+
+
     회원가입을 통해 회원정보를 localStorage에 저장하고, 저장된 값을 이용해 id 중복여부와 로그인한 회원의 정보를 열람할 수 있습니다.
     개발과정에서 localStorage를 활용하는 방법과 useContext를 사용하였습니다. 
     이를 통해 데이터 상태관리에 대해 redux나 recoil같은 라이브러리의 필요성과 공부를 해야겠다는 마음을 갖게 됐습니다. 
 
-- webBoard |
+- webBoard |<https://Swimmingriver.github.io/webBoard>
+
     회원가입을 하여 로그인하면 게시판에 글을 게시할 수 있는 게시판 사이트
     이전에 redux를 공부해야겠다 느끼고, redux-toolkit을 활용하여 만든 프로젝트입니다.
     공부를 하면서 만들어서 중간 중간에 어려운 부분이 많았고, 모르는 부분은 검색과 질문을 통해 해결하였습니다.
@@ -45,6 +49,8 @@
     
     사용한 것:Unity,C#
     
+    후기:
+
     장애물을 피해 목표에 도달하고, 장애물에 맞으면 시작점으로 돌아가는 로그 라이크 형식의 게임
     기간은 한 학기안에 완료하지 못하면 다음 학기로 이월되는 조건이였기 때문에 
     초기목표는 한 학기에 완성이었습니다.
@@ -61,15 +67,10 @@
     최초 계획에 고려하지 못한 점들과 팀원간에 소통이 되지 못한 점등의 이유로
     기대치 미치지 못하는 완성도였다고 팀원들 모두가 인정하고 반성하였습니다.
     이 경험으로 팀 프로젝트 과정에서 계획과 수렴의 중요성을 다시 한번 느끼게 됐습니다.
-    
- 구성: 기간 진행한 일 사용한 기술 성과/수추 중심의 결과
- 최신순으로 기재
- 팀프 역할 기여도
- 고딕체
 
 ## skills
----
-html css js reactJs redux styled-component
+
+Html Css Javascript ReactJs 
 
 
  ## education 
