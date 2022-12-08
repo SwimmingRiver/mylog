@@ -1,11 +1,11 @@
 강수영 | 끝없이 배우고싶은 개발자
-====
+===
 ## About Me
-    #### name : 강수영
+    name : 강수영
     email : swimmingr@gmail.com
     mobile : 000-0000-0000
     github : <https://github.com/SwimmingRiver>
----
+
 ## Introduce
     컴퓨터 공학을 전공으로 대학교를 졸업하였고, 이 교육과정에서
     협업과 여러 언어를 코딩할 경험을 가질 수 있었습니다.
@@ -19,8 +19,8 @@
 
 ## programs
 - todolist | <https://Swimmingriver.github.io/todoList>
-
-    reactjs 를 공부하고 처음으로 만들어본 개인 프로젝트
+	
+	reactjs 를 공부하고 처음으로 만들어본 개인 프로젝트
     할 일을 입력받아 목록에 추가하고,추가된 할 일은 완료되면 완료 목록으로 표시하거나 수정,삭제가 가능합니다.
     react 개발에서 useState,useEffect 같은 hooks를 활용하는 경험을 할 수 있었습니다.
     
