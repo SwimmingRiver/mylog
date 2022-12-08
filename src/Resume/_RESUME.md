@@ -4,7 +4,7 @@
     name : 강수영
     email : swimmingr@gmail.com
     mobile : 000-0000-0000
-    github : < https://github.com/SwimmingRiver >
+    github : <https://github.com/SwimmingRiver>
 ---
 ## Introduce
     컴퓨터 공학을 전공으로 대학교를 졸업하였고, 이 교육과정에서
