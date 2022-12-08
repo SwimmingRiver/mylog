@@ -1,11 +1,10 @@
 강수영 | 끝없이 배우고싶은 개발자
 ====
 ## About Me
-    name : 강수영
+    #### name : 강수영
     email : swimmingr@gmail.com
     mobile : 000-0000-0000
-    
-github : <https://github.com/SwimmingRiver>
+    github : <https://github.com/SwimmingRiver>
 ---
 ## Introduce
     컴퓨터 공학을 전공으로 대학교를 졸업하였고, 이 교육과정에서
